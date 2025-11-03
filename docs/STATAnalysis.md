@@ -1,0 +1,3 @@
+# Statistical Analysis
+Consists of 60,000 color images divided into 50,000 training and 10,000 testing smaples across 10 classes, which includes objects such as aiplanes, cars, birds, and cats. 
+- Each image has dimentions of (32,32,3) showing width, height, and RGB channels. The images were normalized by dividing pixel values by 255.0 for efficeint convergence and numerical stability. The dataset's high varibility and complex visual features brings a reletively low accuracy across models, however CNNs achived the highest accuracy although it is low. The model contained around 1.2 million trainable parameters with a total model size of about 4.8 MB. 
