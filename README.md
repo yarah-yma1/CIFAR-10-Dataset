@@ -1,5 +1,5 @@
 # CIFAR-10-Dataset
-The CIFAR-10 dataset is utlized in machine learning containing 60,000 labeled 32×32 color images across 10 classes, commonly used to train and evaluate image classification algorithms.
+The CIFAR-10 dataset is utlized in machine learning containing 60,000 labeled 32×32 color images across 10 classes, commonly used to train and evaluate image classification algorithms. This repository includes a media folder where outputs + visuals are found, a documentation folder where statistical information is found along side any other important documentations, and source code folder where codes are found. 
 # Table Of Contents
 - [Implementation](#implementation)
 - [Requirements](#requirments)
