@@ -2,12 +2,12 @@
 The CIFAR-10 dataset is utlized in machine learning containing 60,000 labeled 32×32 color images across 10 classes, commonly used to train and evaluate image classification algorithms. This repository includes a media folder containing visual outputs and figures, a documentation folder with statistical information and supporting project documents, and a source code folder where all implementation files are stored.
 # Table Of Contents
 - [Implementation](#implementation)
-- [Requirements](#requirments)
+- [Requirements](#requirements)
 - [How to Use](#how-to-use)
 - [References](#references)
 # Implementation
 The models implementation consists of an input of the MNIST dataset in which it involves a collection of 70,000 handwritten digits (0-9), with each image being 28x28 pixels. The model is trained using 25 EPOCHs in which it is passed through 25 times, with a validation split of 0.2 to prevent overfitting and validates on a specific portion of the data. 
-# Requirments 
+# Requirements 
 This project requires tensorflow, keras, and scikit-learn. It was developed using a Python environment through VSCode.
 Use 'pip install -r requirements.txt' to install the following dependencies:
 ```
