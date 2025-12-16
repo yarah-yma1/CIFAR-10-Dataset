@@ -6,7 +6,7 @@ The CIFAR-10 dataset is utlized in machine learning containing 60,000 labeled 32
 - [How to Use](#how-to-use)
 - [References](#references)
 # Implementation
-The models implementation consists of an input of the MNIST dataset in which it involves a collection of 70,000 handwritten digits (0-9), with each image being 28x28 pixels. The model is trained using 25 EPOCHs in which it is passed through 25 times, with a validation split of 0.2 to prevent overfitting and validates on a specific portion of the data. 
+The models implementation consists of an input of the MNIST dataset in which it involves a collection of 70,000 handwritten digits (0-9), with each image being 28x28 pixels. The model is trained using 25 EPOCHs in which it is passed through 25 times, with a validation split of 0.2 to prevent overfitting and validates on a specific portion of the data. Outputs are found in the media folder. 
 # Requirements 
 This project requires tensorflow, keras, and scikit-learn. It was developed using a Python environment through VSCode.
 Use 'pip install -r requirements.txt' to install the following dependencies:
@@ -59,7 +59,7 @@ wheel==0.45.1
 wrapt==1.17.3
 ```
 # How to Use
-To run this code, you will need to have a Python environment installed on your computer. You can download "cifar_10_dataset.py" into a folder, and open the folder within VS Code.
+In order to run this code, you must activate a Python environment installed on your computer and activated. You can download "cifar_10_dataset.py" into a folder, and open the folder within VS Code.
 The CIFAR-10 dataset is automatically downloaded and loaded in the script, so no external dataset is required.
 
 # References 
